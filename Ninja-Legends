@@ -924,6 +924,20 @@ Menu = {
 })
 
 Page.Button({
+    Text = "Reload UI",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/OptioniaI/NJALGNDS/main/Ninja-Legends"))()
+    end,
+Menu = {
+    Information = function(self)
+        UI.Banner({
+            Text = "Reloads the GUI."            
+        })
+    end
+}
+})
+
+Page.Button({
     Text = "Destroy UI",
     Callback = function()
         game:GetService("CoreGui")["Ninja Legends"]:Destroy()
