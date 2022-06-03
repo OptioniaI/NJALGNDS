@@ -952,8 +952,8 @@ Menu = {
 })
 
 setclipboard("https://discord.gg/mrSFTcpB29")
-game:GetService("StarterGui"):SetCore("SendNotification",{     
-Title = "Ninja Legends Hub",     
+game:GetService("StarterGui"):SetCore("SendNotification",{
+Title = "Ninja Legends Hub",
 Text = "By Hidden#4642";
 Icon = "https://www.roblox.com/asset/?id=5628255887";
 Button1 = "Copy Discord!",
